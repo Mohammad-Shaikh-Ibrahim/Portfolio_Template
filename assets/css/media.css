@@ -1,0 +1,67 @@
+@media (max-width:991px) {
+    
+    header{
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 100vh;
+        color: white !important;
+        background-position: 50%;
+    }
+
+    .container{
+        width: 95%;
+    }
+    .about-content{
+        border-radius: 25px !important;
+    }
+    .about-content .count{
+        border: none !important; 
+    }
+    .description{
+        border-radius: 25px !important;
+    }
+    .portfolio .nav-link{
+        margin-bottom: 15px;
+    }
+    .bio-img{
+        text-align: left !important;
+        transform: scale(0.6);
+    }
+    .resume .col-md-6{
+        margin-bottom: 25px;
+    }
+    .testimonials .item{
+        border-bottom: 25px;
+    }
+}
+@media (max-width:768px){
+    h1{
+        font-size: 22px;
+    }
+    h2{
+        font-size: 20px;
+    }
+    .bio-img{
+        display: none;
+    }
+    .resume{
+        text-align:center;
+    }
+    .contact .container p{
+        width: 100%;
+    }
+    .contact {
+        background-position: 50%;
+    }
+    .map .contact-info{
+        width: auto;
+    }
+    footer{
+        padding-top: 6rem !important;
+        padding-bottom: 6rem !important;
+    }
+    footer .col-md-4{
+        margin-top: 15px;
+        margin-bottom: 5px;
+    }
+}
